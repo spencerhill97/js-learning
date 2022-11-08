@@ -2,7 +2,7 @@ let rlSync = require('readline-sync');
 let player = rlSync.question("Rock, paper, scissors, shoot!\n");
 
 let compChoice = () => {
-    let num = Math.floor(Math.random() 
+    let num = Math.floor(Math.random() * 2)
     switch(num) {
         case 0:
             return 'rock';
